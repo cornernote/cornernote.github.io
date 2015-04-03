@@ -15,10 +15,12 @@ color:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: https://twitter.com/cornernote
+  - title: linkedin
+    url: https://au.linkedin.com/in/mrphp/en
+#  - title: twitter
+#    url: https://twitter.com/cornernote
   - title: github
-    url: http://github.com/cornernote
+    url: https://github.com/cornernote
 
 # Postal address (add as many lines as necessary)
 address:

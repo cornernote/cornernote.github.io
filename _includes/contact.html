@@ -1,5 +1,6 @@
 <form action="//formspree.io/cornernote@gmail.com" method="POST" name="sentMessage" id="contactForm" novalidate>
     <input type="hidden" name="_subject" value="cornernote.github.io contact">
+    <input type="text" name="_gotcha" style="display:none">
 
     <div class="row control-group">
         <div class="form-group col-xs-12 floating-label-form-group controls">
@@ -12,14 +13,10 @@
     <div class="row control-group">
         <div class="form-group col-xs-12 floating-label-form-group controls">
             <label>Email Address</label>
-            <input type="email" name="_replyto" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
+            <input type="email" name="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
 
             <p class="help-block text-danger"></p>
         </div>
-    </div>
-    <div>
-        <input type="hidden" name="_subject" value="New submission!">
-        <input type="text" name="_gotcha" style="display:none"/>
     </div>
     <div class="row control-group">
         <div class="form-group col-xs-12 floating-label-form-group controls">

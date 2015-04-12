@@ -92,6 +92,10 @@ header {
     background: #80B3FF;
 }
 
+.page header {
+    margin-bottom: 50px;
+}
+
 header .container {
     padding-top: 100px;
     padding-bottom: 50px;

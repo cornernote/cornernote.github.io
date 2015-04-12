@@ -1,3 +1,3 @@
 ---
 ---
-{{ site.about }}
+{{ site.description }}

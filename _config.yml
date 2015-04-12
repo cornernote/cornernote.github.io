@@ -4,29 +4,21 @@ email: cornernote@gmail.com
 url: https://cornernote.github.io
 description: "Brett O'Donnell (aka cornernote) is an experienced web software developer specialising in PHP and MySQL."
 
-# Contact form: comment the line below if you want to stick with the default PHP contact form
-contact: static
-
-# Color settings (hex-codes without the leading hash-tag)
-color:
-  primary: 80B3FF #80B3FF
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+# Social networks
 social:
-  - title: linkedin
-    url: https://au.linkedin.com/in/mrphp/en
-#  - title: twitter
-#    url: https://twitter.com/cornernote
   - title: github
     url: https://github.com/cornernote
-
-# Postal address (add as many lines as necessary)
-address:
-  - line: PO Box 2030
-  - line: Hackham SA 5163
+  - title: linkedin
+    url: https://au.linkedin.com/in/mrphp/en
 
 # Build settings
-markdown: kramdown
 permalink: pretty
+paginate_path: /blog/page:num
+paginate: 20
+excerpt_separator: <!--break-->
+markdown: redcarpet
+highlighter: pygments
+exclude: ["README.md", "vendor"]
+gems:
+- jekyll-redirect-from
+

@@ -12,16 +12,22 @@ permalink: /pacman/
     }
 </style>
 
-<div id=logo style="width:554px;height:186px;background:black url(https://rustybrick.s3.amazonaws.com/pacman10-hp.png) 0 0 no-repeat;position:relative;margin-bottom:9px" title="PAC-MAN's 30th Birthday! Doodle with PAC-MANÙ & É±980 NAMCO BANDAI Games Inc.">
-    <div id="logo-l" style="width:200px;height:2px;left:177px;top:157px;background:#990;position:absolute;display:none;overflow:hidden">
-        <div id="logo-b" style="position:absolute;left:0;background:#ff0;height:8px;width:0">
+<div class="row">
+    <div class="col-lg-1 col-centered">
+
+        <div id=logo style="width:554px;height:186px;background:black url(https://rustybrick.s3.amazonaws.com/pacman10-hp.png) 0 0 no-repeat;position:relative;margin-bottom:9px" title="PAC-MAN's 30th Birthday! Doodle with PAC-MANÙ & É±980 NAMCO BANDAI Games Inc.">
+            <div id="logo-l" style="width:200px;height:2px;left:177px;top:157px;background:#990;position:absolute;display:none;overflow:hidden">
+                <div id="logo-b" style="position:absolute;left:0;background:#ff0;height:8px;width:0">
+                </div>
+            </div>
         </div>
+        <form action="/search" name=f onsubmit="google.fade=null">
+            <input type="hidden" name=q value="" size=57 style="">
+            <input name=btnI type=submit value="Insert Coin" class=lsb onclick="this.checked=1">
+        </form>
+
     </div>
 </div>
-<form action="/search" name=f onsubmit="google.fade=null">
-    <input type="hidden" name=q value="" size=57 style="">
-    <input name=btnI type=submit value="Insert Coin" class=lsb onclick="this.checked=1">
-</form>
 
 <script>
     window.google = {

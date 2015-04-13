@@ -470,3 +470,7 @@ footer .footer-below {
     transform: rotate(90deg);
 }
 
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}

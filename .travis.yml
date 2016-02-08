@@ -5,7 +5,7 @@ install:
   - gem install jekyll redcarpet pygments.rb jekyll-paginate jekyll-redirect-from html-proofer
 script:
   - jekyll build
-  - htmlproof _site --href-ignore https://www.linkedin.com/in/mrphp/en
+  - htmlproof _site --href-ignore https://au.linkedin.com/in/mrphp/en
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer

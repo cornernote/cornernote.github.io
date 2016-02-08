@@ -21,4 +21,5 @@ highlighter: rouge
 exclude: ["README.md", "vendor"]
 gems:
 - jekyll-redirect-from
+- jekyll-paginate
 
